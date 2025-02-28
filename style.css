@@ -3,7 +3,24 @@ body {
     sans-serif; 
     margin: 20px; 
     padding: 0; 
+    background-color: white; /* Default light mode background */
+    color: black; /* Default light mode text color */
 }
+
+.dark-mode {
+    background-color: black; /* Dark mode background */
+    color: white; /* Dark mode text color */
+}
+
+.dark-mode h2 {
+    color: lightblue; /* Example color for headings in dark mode */
+}
+
+.dark-mode th {
+    background-color: #333; /* Dark background for table headers */
+    color: white; /* Light text color for table headers */
+}
+
 hr { 
     margin: 20px 0;
 }
